@@ -21,7 +21,7 @@ function AddCategory( { setCategories } ) {
         <form onSubmit={ handleSubmit }>
             <input 
                 type="text"
-                value={inputValue}
+                value={ inputValue }
                 onChange={ handleInputChange }
             />
         </form>
@@ -32,4 +32,4 @@ AddCategory.propTypes = {
     setCategories: PropTypes.func.isRequired
 }
 
-export default AddCategory
+export default AddCategory;
